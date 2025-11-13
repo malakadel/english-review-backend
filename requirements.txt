@@ -3,3 +3,6 @@ uvicorn
 openai-whisper
 language-tool-python
 python-multipart
+torch==2.0.0+cpu
+torchaudio==2.0.0+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
